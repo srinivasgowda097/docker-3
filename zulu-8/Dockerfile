@@ -23,7 +23,7 @@ RUN chown -R payara:payara /opt/payara41*
 RUN apt-get clean
 
 # Default payara ports to expose
-EXPOSE 4848 8009 8080 8181
+EXPOSE 80
 
 # Set up payara user and the home directory for the user
 USER payara
